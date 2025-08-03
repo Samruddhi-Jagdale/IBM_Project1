@@ -1,26 +1,74 @@
 # IBM_Project1
 
-🧠 NSAP Eligibility Prediction using Machine Learning
+📊 NSAP Eligibility Predictor using Machine Learning
+This project aims to automate the process of determining eligibility for NSAP (National Social Assistance Program) welfare schemes in India. Leveraging machine learning and IBM Cloud deployment, the model classifies applicants into appropriate financial aid categories based on demographic and socio-economic data.
 
-This project focuses on predicting eligibility for the National Social Assistance Programme (NSAP), a welfare scheme by the Government of India that provides financial support to the elderly, widows, and persons with disabilities from below-poverty-line (BPL) households. Using machine learning algorithms, we aim to classify whether an individual is eligible for NSAP assistance based on various socio-economic features.
+🚀 Project Overview
+🎯 Objective: Predict eligibility for NSAP schemes using classification algorithms.
 
-🚀 Key Features
+📂 Dataset: AI_KOSH dataset provided by the Government of India.
 
-Built with Python and scikit-learn for model training.
-Dataset sourced from AI-KOSH, focusing on social welfare eligibility.
-Includes preprocessing, feature selection, model training & evaluation.
-Deployed on IBM Cloud using Watson Studio.
-User-friendly interface to input test data and view predictions.
+☁️ Platform: Built and deployed using IBM Watson Studio & IBM Cloud.
 
-🛠 Tools & Technologies
+🤖 Model Used: Snap SVM Classifier with AutoAI pipeline selection.
 
-IBM Watson Studio
-IBM Cloud Deployment
-Jupyter Notebooks
-Machine Learning Algorithms (Logistic Regression, Decision Tree, etc.)
+📊 Accuracy: Achieved 62.2% accuracy on validation data.
 
-📊 Model Output
+🛠️ Technologies & Tools
+Python: For data preprocessing and analysis
 
-The model takes user input data and predicts:
-"Eligible" or "Not Eligible"
-based on trained patterns from historical welfare application data.
+IBM Watson AutoAI: For model training and optimization
+
+IBM Watson Machine Learning: For deployment and real-time inference
+
+Libraries: pandas, numpy, matplotlib, scikit-learn
+
+📌 Features
+✅ Predicts applicant eligibility for NSAP schemes
+
+✅ Multi-class classification based on income and other features
+
+✅ Automatically selects the best model pipeline
+
+✅ Live deployment on IBM Cloud (API ready)
+
+📸 Screenshots
+📍 Model promotion to deployment space
+
+📍 AutoAI pipeline generation & leaderboard
+
+📍 Prediction result for sample input
+
+(See the /images folder in the repo for full visuals)
+
+🧪 Input Features Used
+Age
+
+Gender
+
+Disability Status
+
+Marital Status
+
+State
+
+The model outputs an income level category (e.g., Low, Medium, High).
+
+🔍 Future Enhancements
+🌐 Add web interface or chatbot for public access
+
+🧠 Explore deep learning models for improved accuracy
+
+🗃️ Integrate additional demographic datasets
+
+🧩 Expand to other welfare schemes
+
+📚 References
+NSAP Dataset – AI_KOSH Portal
+
+Scikit-learn Documentation
+
+IBM Cloud Documentation
+
+🙌 Acknowledgments
+Special thanks to IBM SkillsBuild, AI_KOSH, and MITAOE for providing resources and platform support.
